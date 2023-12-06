@@ -71,8 +71,7 @@ cat <<SASS_EOF > src/sass/modules/_body.sass
 body
     margin: 0
     padding: 0
-    background-color: #FFFFFF
-    font-family: Arial, Helvetica, sans-serif
+    font-family: sans-serif
 SASS_EOF
 
 # _header.sass
