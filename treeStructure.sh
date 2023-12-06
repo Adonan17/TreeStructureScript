@@ -130,8 +130,6 @@ cat <<SASS_EOF > src/sass/modules/_footer.sass
 @media (min-width: 1025px)
 SASS_EOF
 
-sass --watch src/sass/app.sass public/style/app.css
-
 tree -d
 
 echo
@@ -142,3 +140,5 @@ echo "#         BEEN CREATED!           #"
 echo "#                                 #"
 echo "###################################"
 echo
+
+sass --watch src/sass/app.sass public/style/app.css
