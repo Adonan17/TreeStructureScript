@@ -140,4 +140,6 @@ echo "#                                 #"
 echo "###################################"
 echo
 
+code .
+
 sass --watch src/sass/app.sass public/style/app.css
